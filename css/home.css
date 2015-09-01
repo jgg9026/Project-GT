@@ -1,0 +1,124 @@
+
+body{
+	
+	
+	/*background-color: #7B7D7F;*/
+	background-image: url("/Users/Jonathan/Desafio/Proyectos/Cambio_juegos/Semana 1/img/fondo-01.jpg");
+	background-repeat: no-repeat;
+
+}
+li{
+	list-style-type: none;
+}
+.screen{
+	background-color: rgba(123,125,127,0.0);
+	max-height: 660px;
+	max-width: 1330px;
+	height: 100%;
+	width: 100%;
+	/*background-size: 1329px 659px;*/
+    background-repeat: no-repeat;
+	left: 18px;
+	position: absolute;
+
+}
+.menu_item{
+	width: 0px;
+	height: 50px;
+	border-radius: 6px;
+	padding: 5px;
+	/*display: none;*/
+}
+
+.screen .screen1 .menu{
+	left: 0px;
+	top: 8px;
+	display: inline-block;
+	width: 0px;
+	margin-left: 0px;
+	background-color: #7B7D7F;
+
+}
+.screen .screen1 .sidebar{
+	background-color: #7B7D7F;;
+	max-width: 50px;
+	width: 0px;
+	max-height: 100%;
+	height: 0px;
+	display: block;
+	color: white;
+
+	
+}
+.icono{
+	display: block;
+	margin: 6px;
+
+
+}
+/*#homeicon, #tagicon, #psicon, #xboxicon, #ninicon, #pcicon{
+	display: none;
+}*/
+.screen .screen1 .headbar .menub{
+	display: inline-block;
+	top: 8px;
+	position: relative;
+}
+.head{
+	color: white;
+	font-family: Consolas, monaco, monospace;
+	  font-style: normal;
+	  font-variant: normal;
+	  
+
+}
+ .screen1{
+	width: 100%;
+	height: 100%;
+	/*background-image: url("/Users/Jonathan/Desafio/Proyectos/Cambio_juegos/Semana 1/img/retocada.jpg");
+	*/
+	
+	z-index: 2;
+	display: inline-block;
+	position: relative;
+}
+.headbar{
+	display: inline-block;
+	position: relative;
+	position: fixed;
+}
+.logo{
+	display: inline-block;
+	position: relative;
+	top: 13px;
+}
+.logo1{
+	position: fixed;
+	left: 375px;
+	top: 52px;
+}
+
+.lupa{
+	/*background-image: url("/Users/Jonathan/Desafio/Proyectos/Cambio_juegos/Semana 1/img/lupa.png");
+    text-align: left;
+
+    background-size: 22px 22px;
+    background-repeat: no-repeat;*/
+    background-color: rgba(0, 0, 0,1.0);
+    border-radius: 15px;
+    border-style: hidden;
+    width: 120px;
+    height: 27px;
+    background-color: white;
+
+}
+.no-lupa{
+	background-color: white;
+	border-radius: 4px;
+}
+
+.searchbox{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 0px;
+}
